@@ -7,7 +7,6 @@ import java.util.Optional;
 import mate.academy.internetshop.dao.BucketDao;
 import mate.academy.internetshop.lib.Dao;
 import mate.academy.internetshop.model.Bucket;
-import mate.academy.internetshop.model.Item;
 import mate.academy.internetshop.storage.IdGenerator;
 import mate.academy.internetshop.storage.Storage;
 
@@ -16,9 +15,8 @@ public class BucketDaoImpl implements BucketDao {
 
     @Override
     public Bucket create(Bucket bucket) {
-        Bucket newBucket = new Bucket();
-        newBucket.setId(IdGenerator.getBucketId());
-        return newBucket;
+        bucket.setId(IdGenerator.getBucketId());
+        return bucket;
     }
 
     @Override
@@ -47,31 +45,12 @@ public class BucketDaoImpl implements BucketDao {
     }
 
     @Override
-    public Bucket addItem(Bucket bucket, Item item) {
-        List<Item> updatedItems = bucket.getItemsInBucket();
-        updatedItems.add(item);
-        bucket.setItemsInBucket(updatedItems);
-        return bucket;
+    public boolean deleteByEntity(Bucket bucket) {
+        return Storage.buckets.remove(bucket);
     }
 
     @Override
-    public Bucket deleteItem(Bucket bucket, Item item) {
-        List<Item> updatedItems = bucket.getItemsInBucket();
-        updatedItems.remove(item);
-        bucket.setItemsInBucket(updatedItems);
-        return bucket;
-    }
-
-    @Override
-    public Bucket clear(Bucket bucket) {
-        List<Item> updatedItems = bucket.getItemsInBucket();
-        updatedItems.clear();
-        bucket.setItemsInBucket(updatedItems);
-        return bucket;
-    }
-
-    @Override
-    public List<Item> getAllItems(Bucket bucket) {
-        return bucket.getItemsInBucket();
+    public List<Bucket> getAllEntities() {
+        return Storage.buckets;
     }
 }

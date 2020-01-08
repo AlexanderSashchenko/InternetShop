@@ -3,12 +3,10 @@ package mate.academy.internetshop.dao.impl;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 import mate.academy.internetshop.dao.OrderDao;
 import mate.academy.internetshop.lib.Dao;
 import mate.academy.internetshop.model.Order;
-import mate.academy.internetshop.model.User;
 import mate.academy.internetshop.storage.IdGenerator;
 import mate.academy.internetshop.storage.Storage;
 
@@ -48,9 +46,12 @@ public class OrderDaoImpl implements OrderDao {
     }
 
     @Override
-    public List<Order> getUserOrders(User user) {
-        return Storage.orders.stream()
-                .filter(o -> o.getUserId().equals(user.getId()))
-                .collect(Collectors.toList());
+    public boolean deleteByEntity(Order order) {
+        return Storage.orders.remove(order);
+    }
+
+    @Override
+    public List<Order> getAllEntities() {
+        return Storage.orders;
     }
 }

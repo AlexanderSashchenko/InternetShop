@@ -35,22 +35,41 @@ public class BucketServiceImpl implements BucketService {
     }
 
     @Override
+    public boolean deleteByEntity(Bucket bucket) {
+        return bucketDao.deleteByEntity(bucket);
+    }
+
+    @Override
+    public List<Bucket> getAllEntities() {
+        return bucketDao.getAllEntities();
+    }
+
+    @Override
     public Bucket addItem(Bucket bucket, Item item) {
-        return bucketDao.addItem(bucket, item);
+        List<Item> items = bucketDao.get(bucket.getId()).map(Bucket::getItemsInBucket).get();
+        items.add(item);
+        bucket.setItemsInBucket(items);
+        return bucket;
     }
 
     @Override
     public Bucket deleteItem(Bucket bucket, Item item) {
-        return bucketDao.deleteItem(bucket, item);
+        List<Item> items = bucketDao.get(bucket.getId()).map(Bucket::getItemsInBucket).get();
+        items.remove(item);
+        bucket.setItemsInBucket(items);
+        return bucket;
     }
 
     @Override
     public Bucket clear(Bucket bucket) {
-        return bucketDao.clear(bucket);
+        List<Item> items = bucketDao.get(bucket.getId()).map(Bucket::getItemsInBucket).get();
+        items.clear();
+        bucket.setItemsInBucket(items);
+        return bucket;
     }
 
     @Override
     public List<Item> getAllItems(Bucket bucket) {
-        return bucketDao.getAllItems(bucket);
+        return bucketDao.get(bucket.getId()).map(Bucket::getItemsInBucket).get();
     }
 }

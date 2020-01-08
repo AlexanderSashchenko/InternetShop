@@ -5,11 +5,19 @@ import java.util.List;
 
 public class Bucket {
     private Long id;
-    private Long orderId;
+    private Long userId;
     private List<Item> itemsInBucket;
 
     public Bucket() {
         this.itemsInBucket = new ArrayList<>();
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
     public Long getId() {
@@ -26,13 +34,5 @@ public class Bucket {
 
     public void setItemsInBucket(List<Item> itemsInBucket) {
         this.itemsInBucket = itemsInBucket;
-    }
-
-    public Long getOrderId() {
-        return orderId;
-    }
-
-    public void setOrderId(Long orderId) {
-        this.orderId = orderId;
     }
 }

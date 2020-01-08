@@ -34,12 +34,12 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public boolean deleteByItem(Item item) {
-        return itemDao.deleteByItem(item);
+    public boolean deleteByEntity(Item item) {
+        return itemDao.deleteByEntity(item);
     }
 
     @Override
-    public List<Item> getAllItems() {
-        return itemDao.getAllItems();
+    public List<Item> getAllEntities() {
+        return itemDao.getAllEntities();
     }
 }

@@ -1,5 +1,6 @@
 package mate.academy.internetshop.service.impl;
 
+import java.util.List;
 import java.util.Optional;
 
 import mate.academy.internetshop.dao.UserDao;
@@ -33,7 +34,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean deleteByUser(User user) {
-        return userDao.deleteByUser(user);
+    public boolean deleteByEntity(User user) {
+        return userDao.deleteByEntity(user);
+    }
+
+    @Override
+    public List<User> getAllEntities() {
+        return userDao.getAllEntities();
     }
 }

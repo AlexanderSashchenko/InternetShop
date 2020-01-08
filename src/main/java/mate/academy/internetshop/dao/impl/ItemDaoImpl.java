@@ -41,18 +41,18 @@ public class ItemDaoImpl implements ItemDao {
     }
 
     @Override
-    public List<Item> getAllItems() {
-        return Storage.items;
-    }
-
-    @Override
     public boolean delete(Long id) {
         Optional<Item> toDelete = get(id);
         return toDelete.map(Storage.items::remove).orElse(false);
     }
 
     @Override
-    public boolean deleteByItem(Item item) {
+    public boolean deleteByEntity(Item item) {
         return Storage.items.remove(item);
+    }
+
+    @Override
+    public List<Item> getAllEntities() {
+        return Storage.items;
     }
 }
