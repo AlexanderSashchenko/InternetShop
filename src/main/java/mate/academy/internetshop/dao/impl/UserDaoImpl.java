@@ -12,6 +12,7 @@ import mate.academy.internetshop.storage.Storage;
 
 @Dao
 public class UserDaoImpl implements UserDao {
+
     @Override
     public User create(User user) {
         user.setId(IdGenerator.getUserId());

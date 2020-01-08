@@ -13,13 +13,13 @@ import mate.academy.internetshop.service.UserService;
 public class Controller {
 
     @Inject
-    public static BucketService bucketService;
+    private static BucketService bucketService;
     @Inject
-    public static UserService userService;
+    private static UserService userService;
     @Inject
-    public static ItemService itemService;
+    private static ItemService itemService;
     @Inject
-    public static OrderService orderService;
+    private static OrderService orderService;
 
     static {
         try {

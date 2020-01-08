@@ -35,7 +35,7 @@ public class BucketDaoImpl implements BucketDao {
                 .map(b -> bucket)
                 .findFirst()
                 .orElseThrow(() -> new NoSuchElementException("Can't find bucket with id: "
-                        + bucket.getId())));
+                        + bucket.getId())));//not working
     }
 
     @Override

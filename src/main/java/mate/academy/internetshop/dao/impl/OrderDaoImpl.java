@@ -12,6 +12,7 @@ import mate.academy.internetshop.storage.Storage;
 
 @Dao
 public class OrderDaoImpl implements OrderDao {
+
     @Override
     public Order create(Order order) {
         order.setId(IdGenerator.getOrderId());
