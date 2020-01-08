@@ -1,5 +1,6 @@
 mate\academy\internetshop\service\impl\OrderServiceImpl.class
 mate\academy\internetshop\dao\impl\UserDaoImpl.class
+mate\academy\internetshop\dao\DaoGeneric.class
 mate\academy\internetshop\lib\Dao.class
 mate\academy\internetshop\service\impl\BucketServiceImpl.class
 mate\academy\internetshop\dao\impl\ItemDaoImpl.class
@@ -15,10 +16,12 @@ mate\academy\internetshop\storage\Storage.class
 mate\academy\internetshop\dao\OrderDao.class
 mate\academy\internetshop\dao\ItemDao.class
 mate\academy\internetshop\dao\BucketDao.class
+mate\academy\internetshop\service\ServiceGeneric.class
 mate\academy\internetshop\lib\Injector.class
 mate\academy\internetshop\model\User.class
 mate\academy\internetshop\service\impl\UserServiceImpl.class
 mate\academy\internetshop\lib\AnnotatedClassMap.class
+mate\academy\internetshop\Controller.class
 mate\academy\internetshop\dao\impl\BucketDaoImpl.class
 mate\academy\internetshop\dao\UserDao.class
 mate\academy\internetshop\factory\Factory.class

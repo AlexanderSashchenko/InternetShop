@@ -32,7 +32,7 @@ public class Controller {
     public static void main(String[] args) {
         Bucket newBucket = new Bucket();
         Item laptop = new Item("Apple", 1250.50);
-        Item smartphone = new Item("Samsung", 400D);
+
         User newUser = new User("Alex");
 
         bucketService.create(newBucket);
@@ -40,6 +40,9 @@ public class Controller {
 
         itemService.create(laptop);
         bucketService.addItem(newBucket, laptop);
+
+        Item smartphone = new Item("Samsung", 400D);
+
         itemService.create(smartphone);
         bucketService.addItem(newBucket, smartphone);
 

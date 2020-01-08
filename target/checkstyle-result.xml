@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.19">
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\Controller.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\BucketDao.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\DaoGeneric.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\BucketDaoImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\ItemDaoImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\OrderDaoImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\UserDaoImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\ItemDao.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\OrderDao.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\UserDao.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\factory\Factory.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\AnnotatedClassMap.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Dao.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Inject.java">
+</file>
 <file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Injector.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Service.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\Bucket.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\Item.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\Order.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\User.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\BucketService.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\BucketServiceImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\ItemServiceImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\OrderServiceImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\UserServiceImpl.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\ItemService.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\OrderService.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\ServiceGeneric.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\UserService.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\storage\IdGenerator.java">
+</file>
+<file name="C:\Users\Я\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\storage\Storage.java">
 </file>
 </checkstyle>

@@ -10,6 +10,7 @@ C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\ser
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\UserService.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\Order.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Inject.java
+C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\ServiceGeneric.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\UserDao.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\lib\Service.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\ItemDao.java
@@ -20,9 +21,11 @@ C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\ItemDaoImpl.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\OrderService.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\UserServiceImpl.java
+C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\DaoGeneric.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\model\Bucket.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\BucketServiceImpl.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\factory\Factory.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\UserDaoImpl.java
+C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\Controller.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\service\impl\ItemServiceImpl.java
 C:\Users\ß\IdeaProjects\InternetShop\src\main\java\mate\academy\internetshop\dao\impl\BucketDaoImpl.java
